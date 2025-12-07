@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate, useLocation } from 'r
 import './App.css';
 import Login from './pages/Login';
 import Main from './pages/Main';
-// import Main1 from './layout/Main';
+// import Main1 from './layout/Main'; 
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem('jwt_token'));
